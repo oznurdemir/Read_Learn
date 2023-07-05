@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alex_brush</item>
+        <item>@font/calligraffitti</item>
+        <item>@font/crafty_girls</item>
+        <item>@font/monofett</item>
+        <item>@font/montserrat_alternates</item>
+        <item>@font/montserrat_alternates_light</item>
+        <item>@font/montserrat_alternates_thin</item>
+    </array>
+</resources>

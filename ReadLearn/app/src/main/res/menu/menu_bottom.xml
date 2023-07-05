@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Kitaplar"
+        android:icon="@drawable/ic_baseline_book_24"
+        android:id="@+id/book"
+        android:iconTint="@color/white"/>
+    <item android:title="Profil"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:id="@+id/profile"
+        android:iconTint="@color/white"/>
+    <item android:title="Geri Bildirim"
+        android:icon="@drawable/ic_baseline_feedback_24"
+        android:id="@+id/settings"
+        android:iconTint="@color/white"/>
+</menu>

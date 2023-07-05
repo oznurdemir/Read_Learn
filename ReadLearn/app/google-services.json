@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "59708509573",
+    "project_id": "readlearn-4e27e",
+    "storage_bucket": "readlearn-4e27e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59708509573:android:18b130388568899ead08ec",
+        "android_client_info": {
+          "package_name": "com.oznurdemir.readlearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59708509573-m33n7bij594n5r3nntrrufslipahkrge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfMJbfU3QoeAbNnXK1M5I_awDFXAx0sPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59708509573-m33n7bij594n5r3nntrrufslipahkrge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

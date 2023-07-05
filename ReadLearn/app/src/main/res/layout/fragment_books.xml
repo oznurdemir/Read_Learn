@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".model.BooksPage">
+    <View
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:background="@drawable/background_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/rounded_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:srcCompat="@drawable/oku_ogren_yazisiz"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A1 Seviyesi"
+            android:textColor="@color/DarkOrange"
+            android:textSize="24dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/saklambac"
+                android:layout_width="31dp"
+                android:layout_height="155dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:onClick="saklambac"
+                app:srcCompat="@drawable/saklambac" />
+
+            <ImageView
+                android:id="@+id/bisiklet"
+                android:layout_width="31dp"
+                android:layout_height="155dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:onClick="bisiklet"
+                app:srcCompat="@drawable/bisiklet" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A2 Seviyesi"
+            android:textColor="@color/DarkOrange"
+            android:textSize="24dp"
+            android:layout_marginTop="10dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/gizemliHarita"
+                android:layout_width="31dp"
+                android:layout_height="155dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:onClick="gizemliHarita"
+                app:srcCompat="@drawable/gizemliharita" />
+
+            <ImageView
+                android:id="@+id/periBacalari"
+                android:layout_width="31dp"
+                android:layout_height="155dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:onClick="periBacalari"
+                app:srcCompat="@drawable/peribacalari" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_alternates"
+        android:text="KİTAPLAR"
+        android:textAlignment="center"
+        android:textColor="#372323"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/view5"
+        app:layout_constraintEnd_toEndOf="@+id/view5"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="@+id/view5"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:layout_constraintVertical_bias="0.558" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
